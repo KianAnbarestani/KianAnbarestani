@@ -1,16 +1,14 @@
-# Hi there, I'm Kian Anbarestani! 👋
+# Hi there, I'm Kian Anbarestani! 
 
-![Profile Banner](https://your-banner-image-url.com) <!-- Replace with your banner image URL if you have one -->
-
-## 👨‍💻 About Me
+## About Me
 I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer currently pursuing my MSc in **IT - System Information Management** at Shiraz University. I specialize in building robust backend systems and developing AI solutions that leverage the power of data.
 
-## 🌟 Interests
+## Interests
 - **Backend Development:** Enthusiastic about Python and its frameworks for backend development.
 - **AI & Machine Learning:** Focused on image processing and AI engineering.
 - **Data Analysis:** Skilled in analyzing and interpreting complex data sets to drive informed decisions.
 
-## 🛠️ Skills & Technologies
+## Skills & Technologies
 
 ### **Programming Languages**
 ![C](https://img.shields.io/badge/-C-555555?style=flat&logo=c)
