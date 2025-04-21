@@ -1,6 +1,9 @@
 # 🔧 Trigger fix – force push
 name: 🔄 Update Profile README
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'       # every day at midnight UTC
