@@ -43,9 +43,8 @@ I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer current
 
 ---
 
-## 🔥 Latest Repositories I Contributed To
-
-<!--START:projects-->
-## 🔥 Latest Repositories I Contributed To
-
-<!--END:projects-->
+##Latest Repositories I Contributed To
+@celery
+@kong
+@wagtail
+@ohmyzsh
