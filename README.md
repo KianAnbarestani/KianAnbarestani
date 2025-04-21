@@ -50,7 +50,7 @@ I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer current
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" alt="Celery" height="40">
   </a>
   <a href="https://github.com/kong" target="_blank" title="Kong">
-    <img src="https://seeklogo.com/images/K/kong-logo-30290787E5-seeklogo.com.png" alt="Kong" height="40">
+    <img src="https://logos-download.com/wp-content/uploads/2023/02/Kong_Logo.png" alt="Kong" height="40">
   </a>
   <a href="https://github.com/wagtail" target="_blank" title="Wagtail">
     <img src="https://media.wagtail.org/images/image_8.width-1200.height-627.png" alt="Wagtail" height="40">
