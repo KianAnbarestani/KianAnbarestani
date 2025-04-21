@@ -46,18 +46,19 @@ I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer current
 ## 🔥 Latest Repositories I Contributed To
 
 <p align="left">
-  <a href="https://github.com/celery" target="_blank">
-    <img src="https://docs.celeryq.dev/en/stable/_images/celery-logo.png" alt="Celery" height="40">
+  <a href="https://github.com/celery" target="_blank" title="Celery">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" alt="Celery" height="40">
   </a>
-  <a href="https://github.com/kong" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/697985?s=200&v=4" alt="Kong" height="40">
+  <a href="https://github.com/kong" target="_blank" title="Kong">
+    <img src="https://seeklogo.com/images/K/kong-logo-30290787E5-seeklogo.com.png" alt="Kong" height="40">
   </a>
-  <a href="https://github.com/wagtail" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/22419680?s=200&v=4" alt="Wagtail" height="40">
+  <a href="https://github.com/wagtail" target="_blank" title="Wagtail">
+    <img src="https://media.wagtail.org/images/image_8.width-1200.height-627.png" alt="Wagtail" height="40">
   </a>
-  <a href="https://github.com/ohmyzsh" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/22552083?s=200&v=4" alt="Oh My Zsh" height="40">
+  <a href="https://github.com/ohmyzsh" target="_blank" title="Oh My Zsh">
+    <img src="https://repository-images.githubusercontent.com/291137/fb009080-6110-11e9-82c2-b21ca7831f5c" alt="Oh My Zsh" height="40">
   </a>
 </p>
+
 
 
