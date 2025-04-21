@@ -1,40 +1,38 @@
-# 🔧 Trigger fix – force push
 name: 🔄 Update Profile README
-
-permissions:
-  contents: write
 
 on:
   schedule:
     - cron: '0 0 * * *'       # every day at midnight UTC
-  workflow_dispatch:          # enables manual run from GitHub
+  workflow_dispatch:          # allows manual run from GitHub
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v3
 
-      - name: Fetch latest repositories
-        run: |
-          curl -s "https://api.github.com/users/KianAnbarestani/repos?sort=updated&per_page=5" > repos.json
-          echo "## 🚀 My Latest Contributions" > latest.md
-          echo "" >> latest.md
-          jq -r '.[] | "* [\(.name)](\(.html_url)) - \(.description // "No description")\n  ![Stars](https://img.shields.io/github/stars/\(.full_name)?style=social) ![Last Commit](https://img.shields.io/github/last-commit/\(.full_name))\n"' repos.json >> latest.md
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-      - name: Replace section in README
-        run: |
-          awk '/<!--START:projects-->/ {print; system("cat latest.md"); skip=1; next}
-               /<!--END:projects-->/ {skip=0}
-               !skip' README.md > temp.md
-          mv temp.md README.md
+      - name: Install Python dependencies
+        run: pip install requests
 
-      - name: Commit and push updated README
+      - name: Run update_readme script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add README.md
-          git commit -m "🔄 Auto-update latest contributions" || echo "No changes to commit"
+          git commit -m "🔄 Auto-update contributed repos" || echo "No changes to commit"
           git push
