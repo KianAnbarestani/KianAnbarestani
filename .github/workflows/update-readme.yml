@@ -2,8 +2,8 @@ name: 🔄 Update Profile README
 
 on:
   schedule:
-    - cron: '0 0 * * *'       # Every day at midnight UTC
-  workflow_dispatch:          # Allow manual runs from GitHub UI
+    - cron: '0 0 * * *'       # every day at midnight UTC
+  workflow_dispatch:          # enables manual run from GitHub
 
 jobs:
   update-readme:
@@ -20,7 +20,7 @@ jobs:
           echo "" >> latest.md
           jq -r '.[] | "* [\(.name)](\(.html_url)) - \(.description // "No description")\n  ![Stars](https://img.shields.io/github/stars/\(.full_name)?style=social) ![Last Commit](https://img.shields.io/github/last-commit/\(.full_name))\n"' repos.json >> latest.md
 
-      - name: Replace placeholder in README
+      - name: Replace section in README
         run: |
           awk '/<!--START:projects-->/ {print; system("cat latest.md"); skip=1; next}
                /<!--END:projects-->/ {skip=0}
@@ -34,4 +34,3 @@ jobs:
           git add README.md
           git commit -m "🔄 Auto-update latest contributions" || echo "No changes to commit"
           git push
- 
