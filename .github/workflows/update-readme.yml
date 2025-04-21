@@ -2,35 +2,35 @@ name: 🔄 Update Profile README
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:      # Manual trigger for testing
+    - cron: '0 0 * * *'       # Every day at midnight UTC
+  workflow_dispatch:          # Allow manual runs from GitHub UI
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repo
-      uses: actions/checkout@v3
+      - name: Checkout the repository
+        uses: actions/checkout@v3
 
-    - name: Fetch latest repos
-      run: |
-        curl -s "https://api.github.com/users/KianAnbarestani/repos?sort=updated&per_page=5" > repos.json
-        echo "## 🚀 My Latest Contributions" > latest.md
-        echo "" >> latest.md
-        jq -r '.[] | "* [\(.name)](\(.html_url)) - \(.description // "No description")\n  ![Stars](https://img.shields.io/github/stars/\(.full_name)?style=social) ![Last Commit](https://img.shields.io/github/last-commit/\(.full_name))\n"' repos.json >> latest.md
+      - name: Fetch latest repositories
+        run: |
+          curl -s "https://api.github.com/users/KianAnbarestani/repos?sort=updated&per_page=5" > repos.json
+          echo "## 🚀 My Latest Contributions" > latest.md
+          echo "" >> latest.md
+          jq -r '.[] | "* [\(.name)](\(.html_url)) - \(.description // "No description")\n  ![Stars](https://img.shields.io/github/stars/\(.full_name)?style=social) ![Last Commit](https://img.shields.io/github/last-commit/\(.full_name))\n"' repos.json >> latest.md
 
-    - name: Replace section in README
-      run: |
-        awk '/<!--START:projects-->/ {print; system("cat latest.md"); skip=1; next}
-             /<!--END:projects-->/ {skip=0}
-             !skip' README.md > updated.md
-        mv updated.md README.md
+      - name: Replace placeholder in README
+        run: |
+          awk '/<!--START:projects-->/ {print; system("cat latest.md"); skip=1; next}
+               /<!--END:projects-->/ {skip=0}
+               !skip' README.md > temp.md
+          mv temp.md README.md
 
-    - name: Commit & Push
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add README.md
-        git commit -m "🔄 Auto-update latest contributions" || echo "No changes to commit"
-        git push
+      - name: Commit and push updated README
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "🔄 Auto-update latest contributions" || echo "No changes to commit"
+          git push
