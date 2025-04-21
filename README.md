@@ -38,5 +38,3 @@ I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer current
 ![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-555555?style=flat&logo=rabbitmq)
 ![Nginx](https://img.shields.io/badge/-Nginx-555555?style=flat&logo=nginx)
 
-### **Other Skills**
-- **Data Analysis**
