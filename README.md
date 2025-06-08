@@ -1,7 +1,7 @@
 # Hi there, I'm Kian Anbarestani! 
 
 ## About Me
-I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer currently pursuing my MSc in **IT - System Information Management** at Shiraz University. I specialize in building robust backend systems and developing AI solutions that leverage the power of data.
+I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer currently pursuing my MSc in **IT - Information Systems Management** at Shiraz University. I specialize in building robust backend systems and developing AI solutions that leverage the power of data.
 
 ## Interests
 - **Backend Development:** Enthusiastic about Python and its frameworks for backend development.
