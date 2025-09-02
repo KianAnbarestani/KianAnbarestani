@@ -1,49 +1,98 @@
-# Hi there, I'm Kian Anbarestani! 
+# Hi there, I'm Kian Anbarestani! 👋  
 
-## About Me
-I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer currently pursuing my MSc in **IT - Information Systems Management** at Shiraz University. I specialize in building robust backend systems and developing AI solutions that leverage the power of data.
+## 🚀 About Me  
+Senior Backend Engineer with 4+ years of hands-on experience building robust, scalable systems using **Python, Django, and FastAPI**.  
+I specialize in **microservices architecture**, delivering **high-availability systems (99.9% uptime)**, and leveraging **Cloud technologies (AWS, GCP)**.  
+I’ve architected platforms handling **50,000+ active users**, optimized large-scale backends for **60% performance gains**, and implemented enterprise-grade **OAuth2 + OIDC authentication servers**.  
 
-## Interests
-- **Backend Development:** Enthusiastic about Python and its frameworks for backend development.
-- **AI & Machine Learning:** Focused on image processing and AI engineering.
-- **Data Analysis:** Skilled in analyzing and interpreting complex data sets to drive informed decisions.
-
-## Skills & Technologies
-
-### **Programming Languages**
-![C](https://img.shields.io/badge/-C-555555?style=flat&logo=c)
-![C++](https://img.shields.io/badge/-C++-555555?style=flat&logo=c%2B%2B)
-![Python](https://img.shields.io/badge/-Python-555555?style=flat&logo=python)
-
-### **Frameworks & Libraries**
-![Django](https://img.shields.io/badge/-Django-555555?style=flat&logo=django)
-![FastAPI](https://img.shields.io/badge/-FastAPI-555555?style=flat&logo=fastapi)
-![Node.js](https://img.shields.io/badge/-Node.js-555555?style=flat&logo=node.js)
-![NumPy](https://img.shields.io/badge/-NumPy-555555?style=flat&logo=numpy)
-![Pandas](https://img.shields.io/badge/-Pandas-555555?style=flat&logo=pandas)
-![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-555555?style=flat&logo=scikit-learn)
-![PyTorch](https://img.shields.io/badge/-PyTorch-555555?style=flat&logo=pytorch)
-![Keras](https://img.shields.io/badge/-Keras-555555?style=flat&logo=keras)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-555555?style=flat&logo=tensorflow)
-
-### **Tools & Platforms**
-![Git](https://img.shields.io/badge/-Git-555555?style=flat&logo=git)
-![Docker](https://img.shields.io/badge/-Docker-555555?style=flat&logo=docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-555555?style=flat&logo=kubernetes)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-555555?style=flat&logo=postgresql)
-![MySQL](https://img.shields.io/badge/-MySQL-555555?style=flat&logo=mysql)
-![SQLite](https://img.shields.io/badge/-SQLite-555555?style=flat&logo=sqlite)
-![MongoDB](https://img.shields.io/badge/-MongoDB-555555?style=flat&logo=mongodb)
-![Redis](https://img.shields.io/badge/-Redis-555555?style=flat&logo=redis)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-555555?style=flat&logo=rabbitmq)
-![Nginx](https://img.shields.io/badge/-Nginx-555555?style=flat&logo=nginx)
-
-### **Other Skills**
-- **Data Analysis**
+Excited about applying my **Computer Science & IT background** to solve complex problems, scale distributed systems, and push forward modern backend architectures.  
 
 ---
 
-## 🔥 Latest Repositories I Contributed To
+## 🛠️ Technical Skills  
+
+### **Languages & Frameworks**  
+- Python, Django, FastAPI, Flask, Odoo  
+- React, JavaScript, HTMX, HTML, CSS  
+
+### **Databases**  
+- PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, RDBMS  
+
+### **Infrastructure & DevOps**  
+- Docker, Kubernetes, Jenkins, Terraform, Linux  
+- AWS (ECS, Lambda, RDS), GCP  
+- Grafana, Splunk, Ansible, Git, Bitbucket  
+
+### **Messaging & Caching**  
+- RabbitMQ, Redis, Celery  
+
+### **Protocols & Standards**  
+- REST APIs, gRPC, OAuth2, OIDC, Channels  
+
+### **Architecture & Design**  
+- Microservices, Event-driven systems  
+- Multi-tenant SaaS platforms  
+- System Design, Data Structures, Scalable architecture  
+
+### **Testing & Automation**  
+- Jest, BDD, RSpec, Selenium, Cucumber  
+
+### **Other Skills**  
+- Product Development & Technical Documentation  
+- Strategic Influence & Independent Leadership  
+- Collaboration & Communication  
+
+---
+
+## 💼 Professional Experience  
+
+**Senior Backend Developer — 7sobh & Bernet Co** (Jul 2025 – Present)  
+- Architected & scaled a **multi-tenant SaaS news and commercial platform**, serving 50,000+ active users with **99.99% uptime**.  
+- Designed & implemented **system specifications** for scalable architecture & continuous delivery.  
+- Built a **robust OAuth2 + OIDC authentication server** for enterprise identity management.  
+- Optimized a large-scale **insurance platform backend**, achieving **60% performance improvement**.  
+- Designed backend for a **video streaming platform**, managing **thousands of simultaneous streams**.  
+- Used Git & Bitbucket for version control and seamless collaboration.  
+
+**Backend Developer — Isip Ecosystem** (Oct 2023 – Jul 2025)  
+- Developed & deployed **10+ Django microservices** with containerized architecture for **e-commerce, KYC, and CRM platforms**.  
+- Built an **order processing system** handling 10k+ monthly transactions with **<300ms response time**.  
+- Engineered a **KYC verification system**, reducing fraud by 70% and onboarding time by 50%.  
+- Developed an **automated CRM platform** with live chat & ticketing, cutting costs by **$10k annually**.  
+- Launched a **Farsi review platform (Yelp-inspired)** with full backend & integrations.  
+
+**Backend Developer — Lavia** (May 2022 – Oct 2023)  
+- Built a **comprehensive Django backend** for a restaurant chain (ordering, delivery, inventory).  
+- Customized **Odoo modules**, improving efficiency by **30%**.  
+- Implemented an **automated communication system**, boosting coordination by **40%**.  
+
+**Backend Developer — IoT Academy** (Jul 2021 – Apr 2022)  
+- Designed scalable backends for **IoT & Industrial IoT**, improving reliability by **35%**.  
+- Created **Web3 backend architectures** for decentralized systems aligned with **ITU IoT standards**.  
+- Managed **Unix-based servers** and deployment environments.  
+
+---
+
+## 🎓 Education  
+- **MSc in Information Technology** — Shiraz University (2024 – Present)  
+- **BSc in Biomedical Engineering** — University of Isfahan (2019 – 2024)  
+
+---
+
+## 🎯 Interests  
+- **Backend Development:** Python, Go, and modern backend ecosystems.  
+- **AI & Machine Learning:** Image processing, AI engineering, and applied ML.  
+- **Data Analysis:** Data-driven decision-making through advanced analytics.  
+
+---
+
+## 📊 GitHub Stats  
+![Kian's GitHub stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=tokyonight)  
+
+---
+
+## 🔥 Latest Repositories I Contributed To  
 
 <p align="left">
   <a href="https://github.com/celery" target="_blank" title="Celery">
@@ -59,6 +108,3 @@ I'm **Kian Anbarestani**, a passionate Backend Developer and AI Engineer current
     <img src="https://repository-images.githubusercontent.com/291137/fb009080-6110-11e9-82c2-b21ca7831f5c" alt="Oh My Zsh" height="40">
   </a>
 </p>
-
-
-
