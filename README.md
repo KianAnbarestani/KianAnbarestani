@@ -87,10 +87,8 @@ Excited about applying my **Computer Science & IT background** to solve complex 
 ---
 
 ## 📊 GitHub Stats  
-![Kian's GitHub stats](https://github-readme-stats.vercel.app/api?username=KianAnbarestani&show_icons=true&theme=tokyonight&count_private=true)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KianAnbarestani&layout=compact&theme=tokyonight&count_private=true)  
 ![GitHub Streak](https://streak-stats.demolab.com?user=KianAnbarestani&theme=tokyonight)  
-![Contributions](https://github-contribution-stats.vercel.app/api/?username=KianAnbarestani)  
 
 ---
 
