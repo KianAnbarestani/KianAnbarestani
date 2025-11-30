@@ -1,89 +1,141 @@
-Kian Anbarestani
+# Kian Anbarestani  
+Senior Backend Engineer | Python • Django • FastAPI • Cloud • Distributed Systems
 
-Professional Summary
+---
 
-Senior Backend Engineer with over 4 years of hands-on experience building robust, scalable systems using Python (Django, FastAPI). I specialize in designing and delivering microservices architecture and high-availability platforms with proven 99.9% uptime standards.
+## Professional Summary
 
-Expertise includes leveraging Cloud technologies (AWS, GCP), implementing modern CI/CD pipelines (Jenkins, Terraform), and engineering complex solutions that drive substantial business impact, such as optimizing large-scale backends for 60% performance gains and scaling systems to support over 50,000 active users.
+Senior Backend Engineer with 4+ years of experience designing, building, and scaling high-availability backend systems using Python (Django, FastAPI).  
+I specialize in microservices architecture, event-driven systems, and multi-tenant SaaS platforms, consistently delivering 99.9%–99.99% uptime production services.
 
-Committed to applying a strong foundation in Computer Science and Information Technology to solve complex scaling challenges and drive forward modern backend architectures.
+My work spans large-scale news platforms, marketplaces, KYC/FinCrime systems, insurance platforms, and IoT/IIoT products. I have a proven track record of:
 
-Technical Proficiencies
+- Boosting backend performance by 60%+ through advanced optimizations  
+- Supporting platforms with 50,000+ active users  
+- Designing scalable service boundaries and distributed workflows  
+- Building reliable CI/CD pipelines and cloud-native systems
 
-Category
+Currently pursuing an MSc in IT – Information Systems Management, focusing on distributed systems, cloud architectures, and operational efficiency.
 
-Key Technologies
+---
 
-Core Backend
+## Technical Proficiencies
 
-Python, Django, Django REST Framework, FastAPI, Flask, Odoo
+### Core Backend
+- Python  
+- Django  
+- Django REST Framework  
+- FastAPI  
+- Flask  
+- Odoo  
 
-Cloud & DevOps
+### Cloud & DevOps
+- Docker  
+- Kubernetes  
+- Terraform  
+- Jenkins  
+- Linux  
+- AWS (ECS, Lambda, RDS)  
+- GCP  
+- CI/CD Pipelines  
+- Infrastructure as Code  
 
-Docker, Kubernetes, Terraform, Jenkins, Linux, AWS (ECS, Lambda, RDS), GCP
+### Data & Messaging
+- PostgreSQL  
+- MySQL  
+- MongoDB  
+- Oracle  
+- Redis  
+- RabbitMQ  
+- Celery  
 
-Data & Messaging
+### Architecture
+- Microservices  
+- Event-Driven Systems  
+- Multi-Tenant SaaS  
+- Distributed Systems  
+- System Design  
+- Domain Modeling  
+- High-Availability Design  
 
-PostgreSQL, MySQL, MongoDB, Oracle, RabbitMQ, Redis, Celery
+### Standards & Protocols
+- REST APIs  
+- gRPC  
+- OAuth2  
+- OIDC  
+- JWT  
+- WebSockets / Channels  
 
-Architecture
+### Testing & Observability
+- Pytest  
+- Jest  
+- Selenium  
+- BDD  
+- Cucumber  
+- Grafana  
+- Prometheus  
+- Splunk  
+- Seq  
+- Structured Logging  
+- Performance Profiling  
 
-Microservices, Event-Driven Systems, Multi-Tenant SaaS, System Design, Data Structures
+---
 
-Standards & Protocols
+## Professional Experience
 
-REST APIs, gRPC, OAuth 2.0, OIDC, Channels
+### Senior Backend Developer — 7sobh & Bernet Co  
+**Jul 2025 – Present**
 
-Testing & Observability
+- Architected and scaled a multi-tenant SaaS news and commercial platform supporting 50,000+ active users with 99.99% uptime.  
+- Designed microservices architecture and improved CI/CD pipelines for reliable and frequent deployments.  
+- Built an enterprise OAuth2 + OIDC authentication server for secure identity and access management.  
+- Refactored and optimized an insurance platform backend, achieving a 60% performance improvement.  
 
-Jest, BDD, RSpec, Selenium, Cucumber, Grafana, Splunk
+**Tech:** Python, Django, DRF, FastAPI, PostgreSQL, Redis, Celery, RabbitMQ, Docker, AWS, GCP, Nginx
 
-Professional Experience
+---
 
-Senior Backend Developer — 7sobh & Bernet Co
+### Backend Developer — Isip Ecosystem (Leno)  
+**Oct 2023 – Jul 2025**
 
-(Jul 2025 – Present)
+- Built and deployed 10+ Django microservices for e-commerce, KYC, and CRM platforms.  
+- Developed a secure KYC verification pipeline, reducing fraud incidents by 70% and onboarding time by 50%.  
+- Engineered a high-throughput order processing system handling 10,000+ monthly transactions with sub-300ms latency.  
 
-Architected and scaled a multi-tenant SaaS news and commercial platform, supporting 50,000+ active users with 99.99% uptime.
+**Tech:** Django, FastAPI, Celery, Redis, PostgreSQL, Docker, Jenkins, Kubernetes
 
-Designed and implemented system specifications for scalable microservices architecture and continuous delivery workflows.
+---
 
-Built a robust OAuth 2.0 and OIDC authentication server for enterprise identity management.
+### Backend Developer — Lavia  
+**May 2022 – Oct 2023**
 
-Optimized a large-scale insurance platform backend through comprehensive refactoring, achieving a 60% performance improvement.
+- Built a complete Django backend for a restaurant chain, integrating ordering, delivery, and inventory systems.  
+- Customized Odoo modules, improving daily operational efficiency by 30%.  
 
-Backend Developer — Isip Ecosystem (Leno)
+---
 
-(Oct 2023 – Jul 2025)
+### Backend Developer — IoT Academy  
+**Jul 2021 – Apr 2022**
 
-Developed and deployed 10+ Django microservices using containerized architecture for e-commerce, KYC, and CRM platforms.
+- Developed scalable backends for IoT and Industrial IoT applications, improving reliability and data flow by 35%.  
+- Implemented Web3-oriented backend infrastructure compliant with ITU IoT standards.  
 
-Engineered a secure KYC verification system, reducing fraud incidents by 70% and decreasing onboarding time by 50%.
+---
 
-Built a high-performance order processing system handling 10,000+ monthly transactions with sub-300ms API response times.
+## Education
 
-Backend Developer — Lavia
+**MSc – Information Technology (Information Systems Management)**  
+Shiraz University (2024 – Present)  
+Coursework: Distributed Systems, Advanced Databases, Network Security, Information Systems
 
-(May 2022 – Oct 2023)
+**BSc – Biomedical Engineering (Computational Systems Track)**  
+University of Isfahan (2019 – 2024)
 
-Built a comprehensive Django backend for a restaurant chain, integrating ordering, delivery, and inventory systems.
+---
 
-Customized Odoo modules for restaurant operations, improving daily task efficiency by 30%.
+## GitHub Statistics
 
-Backend Developer — IoT Academy
-
-(Jul 2021 – Apr 2022)
-
-Designed scalable backends for IoT and Industrial IoT applications, enhancing system reliability and data flow by 35%.
-
-Created Web3 backend architectures for decentralized systems, compliant with ITU international IoT standards.
-
-Education
-
-MSc in Information Technology — Information Systems Management, Shiraz University (2024 – Present)
-
-BSc in Biomedical Engineering — Focus on Computational Systems, University of Isfahan (2019 – 2024)
-
-GitHub Statistics
-
-<!-- These images are professional and relevant, showing activity and language distribution -->
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default" height="180">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=default" height="180">
+</p>
