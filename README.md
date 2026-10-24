@@ -90,4 +90,9 @@ University of Isfahan
 ---
 
 <!--START:projects-->
+## 🔥 Latest Repositories I Contributed To
+
+* [celery/celery](https://github.com/celery/celery) – Distributed Task Queue (development branch)  
+  ⭐ 29049 | 🕒 Updated: 2026-10-24
+
 <!--END:projects-->
