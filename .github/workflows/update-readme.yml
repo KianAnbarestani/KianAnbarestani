@@ -1,9 +1,10 @@
+
 name: 🔄 Update Profile README
 
 on:
   schedule:
-    - cron: '0 0 * * *'       # every day at midnight UTC
-  workflow_dispatch:          # allows manual run from GitHub
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,26 +14,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Run update_readme script
+      # Existing repository contribution updater
+      - name: Update contributed repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_readme.py
 
-      - name: Commit and push changes
+      # New: Generate GitHub activity statistics
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=KianAnbarestani&show_icons=true&show=contributions&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&theme=default'
+          path: profile/stats.svg
+          token: ${{ secrets.GH_STATS_PAT }}
+          fail_on_error: 'true'
+
+      # New: Generate language statistics
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=KianAnbarestani&layout=compact&langs_count=8&theme=default'
+          path: profile/top-langs.svg
+          token: ${{ secrets.GH_STATS_PAT }}
+          fail_on_error: 'true'
+
+      # Commit all generated changes together
+      - name: Commit and push updates
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add README.md
-          git commit -m "🔄 Auto-update contributed repos" || echo "No changes to commit"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md profile/stats.svg profile/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "🔄 Update profile stats and contributions"
           git push
