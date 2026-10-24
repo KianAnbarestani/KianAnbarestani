@@ -83,6 +83,11 @@ University of Isfahan
 ## GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=KianAnbarestani&show_icons=true&theme=default" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KianAnbarestani&layout=compact&theme=default" height="160" alt="Top Languages" />
+  <img src="./profile/stats.svg" height="160" alt="GitHub Stats" />
+  <img src="./profile/top-langs.svg" height="160" alt="Top Languages" />
 </p>
+
+---
+
+<!--START:projects-->
+<!--END:projects-->
