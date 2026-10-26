@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kian Anbarestani&#39;s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Contributions: 3630, Total Commits  (last year) : 1927, Total PRs: 106, Total Issues: 3, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Contributions: 3630, Total Commits  (last year) : 1917, Total PRs: 106, Total Issues: 3, Contributed to (last year): 3</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 125.1661780339732;
+        stroke-dashoffset: 125.17181012111116;
       }
     }
   
